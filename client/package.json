@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "jest --watch",
+    "test:unit": "jest --testPathPattern=unit",
+    "test:integration": "jest --testPathPattern=integration",
+    "test:e2e": "cypress open"
+  }
+}
